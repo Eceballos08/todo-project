@@ -1,0 +1,19 @@
+.TodoCounterHeader {
+    text-align: center;
+    margin: 0;
+    padding: 48px 48px 10px 48px;
+    color: #fff;
+    text-shadow: -2px 2px #FE9815;
+    font-size: 40px;
+    
+}
+
+.TodoCounter {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 0px 0px 40px 0px;
+  font-size: 22px;
+  font-weight: 600;
+}
+

@@ -1,13 +1,76 @@
 body {
+  background: rgb(255,241,147);
+  background: radial-gradient(circle, rgba(255,241,147,1) 0%, rgba(255,178,106,1) 100%);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+form {
+  display: flex;
+  background-color: #FFFCF4;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 80%;
+  max-width: 350px;
+  border-radius: 5%;
 }
+
+label{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 26px;
+  color: #000;
+  font-weight: bold;
+  width: 80%;
+}
+
+textarea{
+  width: 80%;
+  height: 90px;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 2%;
+  border-color: #000;
+  background: #FFFCF4;
+  resize: none;
+}
+
+
+textarea::placeholder {
+  color: #a5a5a5;
+  font-family: 'Montserrat';
+  border-color: #a5a5a5;
+}
+
+div .buttonContainer{
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+}
+
+.TodoForm-button{
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 2%;
+
+}
+
+.buttonCancel{
+  background-color: #bdbdbd;
+}
+
+.buttonCreate{
+  background-color: #21AAAD;
+}
+
